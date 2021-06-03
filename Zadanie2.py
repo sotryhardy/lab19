@@ -19,3 +19,5 @@ for x in range(0, HowMore(fread1, fread2)):
         print('plik2: ' + fread2[x].strip('\n'))
     except IndexError:
         print('plik2 już pusty')
+file1.close()
+file2.close()
